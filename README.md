@@ -1,18 +1,8 @@
-## Getting Started
+## Summary
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project contains a basic UI to allow a user to input triple slash lines for a baseball team and then it will ask OpenAI for the best batting order using those lineups.
 
-## Folder Structure
+## Note
 
-The workspace contains two folders by default, where:
+The 'src' folder contains all the components of the application. Inside of this folder there is an 'App' folder which contains all images and code used in this application. It is important to note that this project makes calls to OpenAI using an API key that costs money to maintain. Please get your own API key from https://platform.openai.com/account/api-keys and place it in the .txt file in App called "APIkey.txt". 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).

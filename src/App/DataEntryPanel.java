@@ -104,7 +104,7 @@ public class DataEntryPanel extends JPanel implements ActionListener {
         gbc.gridy = 11;
         this.add(errorLabel, gbc);
 
-        
+        /*
         //Some default values from Dodgers' 2022 stats.
         statEntryPointsTextField[0][0].setText(".260");
         statEntryPointsTextField[0][1].setText(".343");
@@ -133,7 +133,7 @@ public class DataEntryPanel extends JPanel implements ActionListener {
         statEntryPointsTextField[8][0].setText(".278");
         statEntryPointsTextField[8][1].setText(".350");
         statEntryPointsTextField[8][2].setText(".438");
-        
+        */
     }
 
     @Override
